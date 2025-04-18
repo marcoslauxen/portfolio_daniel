@@ -1,0 +1,78 @@
+export default {
+  meta: {
+    title: 'Portafolio de Ingeniero de Datos',
+    description: 'Portafolio profesional que muestra experiencia en ingeniería de datos y proyectos',
+  },
+  navigation: {
+    home: 'Inicio',
+    about: 'Acerca',
+    projects: 'Proyectos',
+    skills: 'Habilidades',
+    testimonials: 'Testimonios',
+    contact: 'Contacto',
+  },
+  hero: {
+    greeting: 'Hola, soy',
+    name: 'John Doe',
+    title: 'Ingeniero de Datos · Ingeniero de Big Data · Consultor',
+    subtitle: 'Transformando Datos en Soluciones Inteligentes',
+    cta: 'Hablemos',
+  },
+  about: {
+    title: 'Sobre Mí',
+    bio: 'Soy un Ingeniero de Datos apasionado con más de 7 años de experiencia diseñando e implementando soluciones de arquitectura de datos para empresas de todos los tamaños. Mi especialidad está en transformar datos crudos en información valiosa que impulse decisiones de negocio.',
+    experience: 'Años de Experiencia',
+    projects: 'Proyectos Completados',
+    clients: 'Clientes Satisfechos',
+    downloadResume: 'Descargar Currículum',
+  },
+  projects: {
+    title: 'Proyectos',
+    subtitle: 'Trabajos seleccionados que muestran mi experiencia en ingeniería de datos',
+    filter: {
+      all: 'Todos',
+      bigData: 'Big Data',
+      dataWarehousing: 'Data Warehousing',
+      dataPipelines: 'Data Pipelines',
+      analytics: 'Analítica',
+    },
+    viewProject: 'Ver Proyecto',
+    viewGithub: 'Ver Código',
+    viewArticle: 'Leer Caso de Estudio',
+  },
+  skills: {
+    title: 'Habilidades Técnicas',
+    subtitle: 'Tecnologías y herramientas con las que trabajo',
+    categories: {
+      languages: 'Lenguajes de Programación',
+      databases: 'Bases de Datos',
+      frameworks: 'Frameworks y Bibliotecas',
+      tools: 'Herramientas y Plataformas',
+      cloud: 'Servicios en la Nube',
+    },
+  },
+  testimonials: {
+    title: 'Testimonios',
+    subtitle: 'Lo que dicen clientes y colegas sobre mi trabajo',
+  },
+  contact: {
+    title: 'Ponte en Contacto',
+    subtitle: '¿Tienes un proyecto en mente? Hablemos de cómo puedo ayudar',
+    nameLabel: 'Nombre Completo',
+    emailLabel: 'Dirección de Correo',
+    subjectLabel: 'Asunto',
+    messageLabel: 'Mensaje',
+    submitButton: 'Enviar Mensaje',
+    success: '¡Gracias! Tu mensaje ha sido enviado.',
+    error: '¡Ups! Algo salió mal. Por favor, inténtalo de nuevo.',
+    validation: {
+      required: 'Este campo es obligatorio',
+      email: 'Por favor, introduce una dirección de correo válida',
+      minLength: 'Este campo debe tener al menos {{min}} caracteres',
+    },
+  },
+  footer: {
+    copyright: '© {{year}} John Doe. Todos los derechos reservados.',
+    builtWith: 'Construido con React y Tailwind CSS',
+  },
+};

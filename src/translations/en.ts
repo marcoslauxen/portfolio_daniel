@@ -1,0 +1,78 @@
+export default {
+  meta: {
+    title: 'Data Engineer Portfolio',
+    description: 'Professional portfolio showcasing data engineering expertise and projects',
+  },
+  navigation: {
+    home: 'Home',
+    about: 'About',
+    projects: 'Projects',
+    skills: 'Skills',
+    testimonials: 'Testimonials',
+    contact: 'Contact',
+  },
+  hero: {
+    greeting: 'Hi, I am',
+    name: 'John Doe',
+    title: 'Data Engineer · Big Data Engineer · Consultant',
+    subtitle: 'Transform Data into Intelligent Solutions',
+    cta: 'Let\'s Talk',
+  },
+  about: {
+    title: 'About Me',
+    bio: 'I am a passionate Data Engineer with over 7 years of experience designing and implementing data architecture solutions for businesses of all sizes. My expertise lies in transforming raw data into valuable insights that drive business decisions.',
+    experience: 'Years of Experience',
+    projects: 'Projects Completed',
+    clients: 'Happy Clients',
+    downloadResume: 'Download Resume',
+  },
+  projects: {
+    title: 'Projects',
+    subtitle: 'Selected works that showcase my expertise in data engineering',
+    filter: {
+      all: 'All',
+      bigData: 'Big Data',
+      dataWarehousing: 'Data Warehousing',
+      dataPipelines: 'Data Pipelines',
+      analytics: 'Analytics',
+    },
+    viewProject: 'View Project',
+    viewGithub: 'View Code',
+    viewArticle: 'Read Case Study',
+  },
+  skills: {
+    title: 'Technical Skills',
+    subtitle: 'Technologies and tools I work with',
+    categories: {
+      languages: 'Programming Languages',
+      databases: 'Databases',
+      frameworks: 'Frameworks & Libraries',
+      tools: 'Tools & Platforms',
+      cloud: 'Cloud Services',
+    },
+  },
+  testimonials: {
+    title: 'Testimonials',
+    subtitle: 'What clients and colleagues say about my work',
+  },
+  contact: {
+    title: 'Get In Touch',
+    subtitle: 'Have a project in mind? Let\'s discuss how I can help',
+    nameLabel: 'Full Name',
+    emailLabel: 'Email Address',
+    subjectLabel: 'Subject',
+    messageLabel: 'Message',
+    submitButton: 'Send Message',
+    success: 'Thank you! Your message has been sent.',
+    error: 'Oops! Something went wrong. Please try again.',
+    validation: {
+      required: 'This field is required',
+      email: 'Please enter a valid email address',
+      minLength: 'This field must be at least {{min}} characters',
+    },
+  },
+  footer: {
+    copyright: '© {{year}} John Doe. All rights reserved.',
+    builtWith: 'Built with React and Tailwind CSS',
+  },
+};
